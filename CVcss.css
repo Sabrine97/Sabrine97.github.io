@@ -102,7 +102,7 @@ main h2 {
 
 .element {
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     padding: 20px;
 }
 
