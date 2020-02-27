@@ -1,3 +1,4 @@
+                                               /*  GLOBAL  */
 body,
 html {
     margin: 0;
@@ -8,7 +9,7 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-/*MARGE*/
+                                                                    /*   MARGE   */
 #marge {
     background-color: #36a050;
     width: 30%;
@@ -65,7 +66,7 @@ a {
     color: black;
 }
 
-/*MAIN*/
+                                                              /*   MAIN   */
 main {
     padding: 30px;
 }
@@ -149,7 +150,7 @@ main p {
     background: #36a050;
     margin: 2px
 }
-/*Responsive*/
+                                                 /*     Responsive     */
 @media all and (max-width: 1000px) {
     #blocpage {
         width: 100%;
@@ -170,8 +171,8 @@ main p {
         margin-bottom: 20px;
     }
 
-    .cercle,
-    .rond,
+                                                
+    
     #loisirs,
     #apropos,
     #photo {
