@@ -135,71 +135,71 @@ width: 30%;
     margin: 2px 20px;
     text-align: left;
          }
-                                                        
-                                                        .cercle {
-                                                            width: 12px;
-                                                            height: 12px;
-                                                            border-radius: 50%;
-                                                            border: 3px solid #36a050;
-                                                            margin: 3px 20px;
+     
+   .cercle {
+    width: 12px;
+     height: 12px;
+      border-radius: 50%;
+     border: 3px solid #36a050;
+     margin: 3px 20px;
                                                            
                                                         
-                                                        }
+        }
                                                         
-                                                        .point {
-                                                            width: 8px;
-                                                            height: 8px;
-                                                            border-radius: 50%;
-                                                            background: #36a050;
-                                                            margin: 2px
-                                                        }
-                                                                                                                     /*   Responsive    */
-                                                        @media all and (max-width: 1000px) {
-                                                            #blocpage {
-                                                                width: 100%;
-                                                                flex-direction: column-reverse;
-                                                            }
+    .point {
+     width: 8px;
+     height: 8px;
+    border-radius: 50%;
+     background: #36a050;
+       margin: 2px
+          }
+                                              /*   Responsive    */
+ @media all and (max-width: 1000px) {
+ #blocpage {
+  width: 100%;
+    flex-direction: column-reverse;
+         }
                                                         
-                                                            #marge {
-                                                                flex-direction: row-reverse;
-                                                                width: 100%;
-                                                            }
+   #marge {
+   flex-direction: row-reverse;
+    width: 100%;
+         }
                                                         
-                                                            #loisirs,
-                                                            #apropos,
-                                                            #photo {
-                                                                display: none;
-                                                            }
+    #loisirs,
+    #apropos,
+    #photo {
+    display: none;
+      }
                                                         
-                                                            .element {
-                                                                flex-direction: column;
-                                                            }
+   .element {
+    flex-direction: column;
+      }
                                                         
-                                                            .dates {
-                                                                flex-direction: row;
-                                                                margin-bottom: 20px;
-                                                            }
+     .dates {
+      flex-direction: row;
+      margin-bottom: 20px;
+             }
                                                            
                                                         
                                                            
-                                                            #recommandations .element {
-                                                                text-align: center;
-                                                            }
-                                                        }
+      #recommandations .element {
+           text-align: center;
+            }
+         }
                                                         
-                                                        @media all and (max-width: 480px) {
-                                                            header {
-                                                                margin-bottom: 40px;
-                                                                font-size: 10px;
-                                                            }
+     @media all and (max-width: 480px) {
+      header {
+     margin-bottom: 40px;
+     font-size: 10px;
+      }
                                                              
-                                                            main h2 {
-                                                                font-size: 130%;
-                                                            }
-                                                        }
+      main h2 {
+      font-size: 130%;
+         }
+  }
                                                         
-                                                        @media all and (max-width: 380px){
-                                                            h1{
-                                                                font-size: 18px;
-                                                            }
-                                                        }
+     @media all and (max-width: 380px){
+      h1{
+      font-size: 18px;
+        }
+     }
