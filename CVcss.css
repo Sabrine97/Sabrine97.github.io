@@ -1,4 +1,4 @@
-                                               /*         Global    */
+   /*         Global    */
    body,
  html {
     margin: 0;
@@ -10,14 +10,18 @@ font-family: 'Montserrat', sans-serif;
                                                             
 }
                                                         
-                                                 /*     MARGE      */
+       /*     MARGE      */
     #marge {
 background-color: #36a050;
 width: 30%;
  display: flex;
   flex-direction: column;
  justify-content: space-around;
+
   }
+
+    /*    Marge    */
+                        /* à propos de ma photo  */
                                                         
  #photo {
   display: flex;
@@ -31,6 +35,7 @@ width: 30%;
   border-radius: 50%;
    box-shadow: 1px 1px 12px #555;
    }
+                                                     
                                                         
    #contact p {
     margin-left: 20px;
@@ -42,7 +47,8 @@ width: 30%;
     text-align: center;
    text-transform: uppercase;
         }
-                                                        
+                   
+    /* à propos de moi  */
     #apropos {
      flex-grow: 2;
           }
@@ -50,6 +56,8 @@ width: 30%;
  #apropos p {
    margin: 20px;
         }
+
+   /* logos */
                                                         
  #logos {
     display: flex;
@@ -67,7 +75,7 @@ width: 30%;
     color: black;
       }
                                                         
-                                                   /*     MAIN       */
+      /*     MAIN       */
      main {
      padding: 30px;
           }
@@ -126,7 +134,7 @@ width: 30%;
      font-weight: bold;
      }
                                                         
-          /*     Figures      */
+    /*     Figures      */
     .rond {
     width: 10px;
     height: 10px;
@@ -153,7 +161,8 @@ width: 30%;
      background: #36a050;
        margin: 2px
           }
-                                              /*   Responsive    */
+     /*   Responsive    */
+
  @media all and (max-width: 1000px) {
  #blocpage {
   width: 100%;
